@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(to left, rgb(30, 121, 121) , rgb(29, 238, 238));
+ }
+ .card{
+     height:320px;
+     width: 400px;
+     border-radius: 20px;
+     background-color: pink;
+     margin:120px auto;
+    color : rgb(158, 29, 104);
+    padding: 20px;
+    position: relative;
+ }
+ .card-heart,.card-like,.card-social-fb,.card-social-ins{
+     font-size: 30px;
+     position: absolute;
+     top : 15px;
+     left : 20px;
+     justify-content: space-around;
+ }
+ .card-like{
+     left : unset;
+     right :20px;
+ }
+ 
+ 
+ .card-img img{
+     width: 200px;
+     height: 200px;
+     border-radius: 100px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+ }
+ .card-name{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: black;
+ }
+ 
+ .card-social-fb,.card-social-ins{
+     margin-top : 300px;
+     
+ 
+ }
+ .card-social-ins{
+     left: unset;
+     right: 20px;
+ }
+ 
+ 
